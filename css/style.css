@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.courseTitle{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.chapterTitle {
+  text-align: left;
+  font-family: sans-serif;
+}
+.content{
+
+}
+
+
+.commentsDiv ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.comment{
+  list-style: none;
+  margin-top: 10px;
+  /*border: 2px solid black;*/
+  padding: 4px;
+}
+
+.comment h5{
+  margin-bottom: -5px;
+}
+
+/*.comment span{
+  font-size: 1px;
+}*/
+
+/*sidebar styles*/
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding-top: 70px; /* Adjust based on your design */
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: all 0.3s;
+}
+.sidebar a:hover {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.sidebar .active{
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+.main-content {
+    margin-left: 250px; /* Set the same width as sidebar */
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .main-content {
+    margin-left: 0; 
+  }
+}
+
+.cInfo h4{
+  margin-bottom: -2px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cInfo p{
+  margin-bottom: -5px;
+}
+.row a{
+  text-decoration: none;
+  color: black;
+}
+
+.priceDiv *{
+  color: white;
+}
+
+dl{
+  margin-bottom: -6px;
+  font-style: italic;
+}
+
+.chaptersCommentsDiv{
+  overflow-y: scroll;
+}
+
