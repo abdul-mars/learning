@@ -11,7 +11,7 @@ to run this project
 		- enter use of the following emails and use qaz as password
 		1. 	teacher1@gmail.com
 		2  	teacher2@gmail.com
-		3. 	yakubu@gmail.com
+		3. 	issah@gmail.com
 	c to open students side type localhost/learning/
 		- to login use use any of the following emails and qaz as password
 		1. ama@gmail.com
